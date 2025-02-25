@@ -126,23 +126,26 @@ svg{
 
 .hero h1{
     font-size: 3rem;
-    margin: 0;
+    margin: 25px;
 }
 
 .hero p {
             font-size: 1rem;
-            margin: 1rem 0;
+            margin: 25px;
             max-width: 600px;
         }
 
 .social-icons svg {
-    width: 24px;
-    height: 24px;
-    fill: grey;
-    transition: transform 0.2s;
-    left: 10px;
-    top: 50%;
+    width: 20px;
+    height: 20px;
+    fill: white;
+    transform: rotateX('90');
+    left: -15px;
+    top: -50%;
     position: relative;
+    flex-direction: column;
+    display: flex;
+    gap: 20px;
     
 }
 .social-icons a:hover svg {
