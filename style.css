@@ -129,6 +129,10 @@ svg{
     margin: 25px;
 }
 
+.tete{
+    margin-bottom: auto;
+}
+
 .hero p {
             font-size: 1rem;
             margin: 25px;
@@ -152,4 +156,6 @@ svg{
     transform: scale(1.2);
     fill: #4CAF50;
 }
+
+
 
