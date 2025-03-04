@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contactez-nous</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="brand">
+            <img src="avion2.png" alt="logo">
+            <span>Agence de Voyage</span>
+        </div>
+        <div class="links">
+            <a href="travelRecommendation.html">Accueil</a>
+            <a href="about.html">A propos de nous</a>
+            <a href="contact.html">Contactez-nous</a>
+        </div>
+    </div>
+    <div class="hero">
+        <h1>Contact Us</h1>
+        <p>Get in touch</p>
+
+        <div class="form-container">
+            <form action="/submit" method="POST">
+                <label for="name">Name</label>
+                <input type="text" name="name" required>
+                <label for="email">Email</label>
+                <input type="email" name="email" required>
+                <label for="message">Message</label>
+                <textarea name="message" rows="5" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
