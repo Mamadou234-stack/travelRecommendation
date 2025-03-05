@@ -121,7 +121,7 @@ svg{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .hero .overlay {
@@ -142,14 +142,25 @@ svg{
     margin: 25px;
 }
 
-.tete{
-    margin-bottom: auto;
-}
-
 .hero p {
             font-size: 1rem;
             margin: 25px;
             max-width: 600px;
+        }
+
+        .social-icons {
+            position: fixed;
+            top: 50%;
+            left: 1rem;
+            transform: translateY(-50%);
+        }
+
+         .social-icons a {
+            display: block;
+            margin: 1rem 0;
+            color: white;
+            text-decoration: none;
+            font-size: 1.5rem;
         }
 
 .social-icons svg {
@@ -215,14 +226,14 @@ svg{
             max-width: 600px;
             margin: 0 auto;
             background-color: rgba(0, 0, 0, 0.2);
-            padding: 2rem;
+            padding: 0.6rem;
             border-radius: 10px;
         }
 
         .form-container input, .form-container textarea {
-            width: 100%;
-            margin: 1rem 0;
-            padding: 0.8rem;
+            width: 90%;
+            margin: 0.6rem;
+            padding: 0.6rem;
             border: 1px solid white;
             border-radius: 5px;
             background-color:rgba(0, 0, 0, 0.2);
@@ -234,7 +245,7 @@ svg{
             border: none;
             background-color: teal;
             color: white;
-            font-size: 1.2rem;
+            font-size: 1.3rem;
             border-radius: 5px;
             cursor: pointer;
         }
